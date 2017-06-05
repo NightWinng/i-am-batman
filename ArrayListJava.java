@@ -30,11 +30,11 @@ public class ArrayListJava
             int arrayNum2 = (int)arr.get(j);
             if(arrayNum1 + arrayNum2 == 80)
             {
-               System.out.println(arrayNum1 + " + " + arrayNum2);
+               System.out.println(arrayNum1 + " + " + arrayNum2 + " = 80 ");
             }
             else if( arrayNum2 - arrayNum1 == 80)
             {
-               System.out.println(arrayNum2 + " - " + arrayNum1);
+               System.out.println(arrayNum2 + " - " + arrayNum1 + " = 80 ");
             }
          }
       }  
